@@ -5,6 +5,8 @@ const app = express();
 const workoutRoutes = require('./routes/workout');
 const userRoutes = require('./routes/user');
 
+
+
 app.use(express.json());
 
 //connect to DB
